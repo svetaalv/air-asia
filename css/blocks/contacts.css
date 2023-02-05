@@ -19,8 +19,48 @@
   margin-bottom: 5px;
 }
 
-.contacts__schedule {
+.contacts__schedule-dropdown {
   font-size: 13px;
   text-decoration: underline;
   margin-top: -3px;
+  cursor: pointer;
+  position: relative;
+}
+
+.contacts__dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #EDEDED;
+  min-width: 160px;
+  padding: 17px 19px;
+  color: #1E1F20;
+  opacity: 80%;
+  border-radius: 5px;
+  margin-top: 9px;
+  right: 0;
+}
+
+
+.contacts__dropdown-content:before {
+  content: "";
+  border-bottom: 21px solid #EDEDED;
+  border-left: 33px solid transparent;
+  border-right: 33px solid transparent;
+  position: relative;
+  top: -41px;
+}
+
+.contacts__schedule-dropdown:hover .contacts__dropdown-content {
+  display: block;
+}
+
+.contacts__schedule-text {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+
+.contacts__dinner-text {
+margin-right: 10px;
 }

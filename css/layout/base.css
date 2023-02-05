@@ -1,4 +1,12 @@
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1200px;
+}
+
+.main-page-wrepper {
   background: url(../../img/1.jpg)  50% 0%, url(../../img/2.jpg) 50% 92%;
   background-repeat: no-repeat;
   display: flex;
@@ -60,6 +68,18 @@ img {
   width: 1141px;
 }
 
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(../../img/welcome.png) 50% 70% no-repeat;
+}
+
 .button__red {
   background: #F5170E;
   border-radius: 35px;
@@ -93,6 +113,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .button--item {
@@ -105,10 +126,58 @@ img {
   text-decoration: none;
   color: #fff;
   display: flex;
+  border: none;
+  cursor: pointer;
 }
 
 .btn {
   padding: 17px 41px;
+}
+
+.button--black {
+  background: #2B2B2B;
+  border-radius: 35px;
+  padding: 18px 44px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  border: none;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.button--item-red {
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 41px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+
+.button--item-red-welcome {
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 57px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button--black:hover {
+  background: #F5170E;
 }
 
 .about-us__button {

@@ -1,18 +1,76 @@
 .socials {
   margin-right: 58px;
+  position: relative;
 }
 
-.socials__link {
+.socials__link-telegram:after {
   text-decoration: none;
+  content: "";
   display: block;
+  position: absolute;
+  top: 8%;
+  left: -233%;
   width: 36px;
   height: 36px;
-  background: center center no-repeat;
+  background: url(../../img/css_sprites1.png) -66px -10px;
+}
+
+.socials__link-telegram:hover:after {
+  background-position: -10px -10px;
+}
+
+.socials__link-vk:after {
+  text-decoration: none;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 203%;
+  width: 36px;
+  height: 36px;
+  background: url(../../img/css_sprites1.png) -10px -66px;
+}
+
+.socials__link-vk:hover:after {
+  background-position: -122px -10px;
+}
+
+.socials__link-fb:after {
+  text-decoration: none;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 655%;
+  width: 36px;
+  height: 36px;
+  background: url(../../img/css_sprites1.png) -66px -122px;
+}
+
+.socials__link-fb:hover:after {
+  background-position: -66px -66px;
+}
+
+.socials__link-ig:after {
+  text-decoration: none;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 1112%;
+  width: 36px;
+  height: 36px;
+  background: url(../../img/css_sprites1.png) -10px -122px;
+}
+
+.socials__link-ig:hover:after {
+  background-position: -122px -66px;
 }
 
 .socials__list {
-  display: flex;
-  margin-right: 19px;
+  position: relative;
+  margin-right: 155px;
+  margin-top: -21px;
 }
 
 .socials__item {
