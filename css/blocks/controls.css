@@ -18,6 +18,15 @@
 }
 
 .controls__item {
-  margin-right: 11px;
+  margin-right: 14px;
   margin-bottom: 9px;
+}
+
+.controls__item:nth-child(5) {
+  margin-right: 0;
+}
+
+.controls__item:nth-child(6), .controls__item:nth-child(7) {
+  margin-right: 0;
+  margin-bottom: 0;
 }

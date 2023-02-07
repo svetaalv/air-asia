@@ -15,3 +15,7 @@
 .menu__item:last-child {
   margin-right: 0;
 }
+
+.menu__item--active .menu__link {
+  color: #DA0100;
+  }
