@@ -26,7 +26,11 @@
   margin-right: 0;
 }
 
-.controls__item:nth-child(6), .controls__item:nth-child(7) {
+.controls__item:nth-child(6) {
+  margin-bottom: 0;
+}
+
+.controls__item:nth-child(7) {
   margin-right: 0;
   margin-bottom: 0;
 }
